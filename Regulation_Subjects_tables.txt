@@ -305,37 +305,45 @@ db.regulationSubjects.insertOne({
 	year: 4,
 	semester: 1,
 	subjects: {
-		"MC4105P01": {
+		"MC4105PO1": {
 			name: "PHYSICAL FITNESS ACTIVITIES",
 			credits: 0.0
 		},
-		"MC3205T01": {
-			name: "IPR&PATENTS",
-			credits: 0.0
-		},
-		"PC3205T01": {
-			name: "MACHINE LEARNING USING PYTHON",
+		"OE4100T01B": {
+			name: "ENVIRONMENTAL POLLUTION AND CONTROL",
 			credits: 3.0
 		},
-		"PC3205T02": {
-			name: "DESIGN AND ANALYSIS ALGORITHMS",
-			credits: 3.0
-		},
-		"PE3205T02D": {
-			name: "DISTRIBUTED SYSTEMS",
-			credits: 3.0
-		},
-		"PE3205T03A": {
-			name: "SOFTWARE PROJECT MANAGEMENT",
-			credits: 3.0
-		},
-		"PC3205P01": {
-			name: "MACHINE LEARNING USING PYTHON LAB",
+		"PC4105PO1": {
+			name: "BIG DATA ANALYTICS LAB",
 			credits: 1.5
 		},
-		"PC3205P02": {
-			name: "DATA ANALYTICS USING R LAB",
+		"PC4105PO2": {
+			name: "CRYPTOGRAPHY AND NETWORK SECURITY LAB",
 			credits: 1.5
+		},
+		"PC4105TO1": {
+			name: "CRYPTOGRAPHY AND NETWORK SECURITY",
+			credits: 3.0
+		},
+		"PC4105TO2": {
+			name: "BIG DATA ANALYTICS",
+			credits: 3.0
+		},
+		"PE4105T01B": {
+			name: "MEAN STACK DEVELOPMENT",
+			credits: 3.0
+		},
+		"PE4105T02D": {
+			name: "CYBER SECURITY AND FORENSIC",
+			credits: 3.0
+		},
+		"PR4105P01": {
+			name: "PORJECT WORK PHASE - 1",
+			credits: 2.0
+		},
+		"PR4105P02": {
+			name: "INDUSTRIAL TRAINING",
+			credits: 1.0
 		}
 	}
 })

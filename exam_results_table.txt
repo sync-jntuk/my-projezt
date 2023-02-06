@@ -110,5 +110,24 @@ db.examResults.insertMany([
 			"PC3205P01": 8,
 			"PC3205P02": 10
 		}
+	},
+	{
+		roll: '19021A0517',
+		year: 4,
+		semester: 1,
+		subjects: {
+			MC4105PO1: -1,
+			OE4100T01B: 8,
+			PC4105PO1: 10,
+			PC4105PO2: 8,
+			PC4105TO1: 7,
+			PC4105TO2: 8,
+			PE4105T01B: 6,
+			PE4105T02D: 7,
+			PR4105P01: 10,
+			PR4105P02: 10
+		}
 	}
 ])
+
+

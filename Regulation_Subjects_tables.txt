@@ -298,3 +298,44 @@ db.regulationSubjects.insertMany([
 		}
 	}
 ])
+
+
+db.regulationSubjects.insertOne({
+	regulation: "R19",
+	year: 4,
+	semester: 1,
+	subjects: {
+		"MC4105P01": {
+			name: "PHYSICAL FITNESS ACTIVITIES",
+			credits: 0.0
+		},
+		"MC3205T01": {
+			name: "IPR&PATENTS",
+			credits: 0.0
+		},
+		"PC3205T01": {
+			name: "MACHINE LEARNING USING PYTHON",
+			credits: 3.0
+		},
+		"PC3205T02": {
+			name: "DESIGN AND ANALYSIS ALGORITHMS",
+			credits: 3.0
+		},
+		"PE3205T02D": {
+			name: "DISTRIBUTED SYSTEMS",
+			credits: 3.0
+		},
+		"PE3205T03A": {
+			name: "SOFTWARE PROJECT MANAGEMENT",
+			credits: 3.0
+		},
+		"PC3205P01": {
+			name: "MACHINE LEARNING USING PYTHON LAB",
+			credits: 1.5
+		},
+		"PC3205P02": {
+			name: "DATA ANALYTICS USING R LAB",
+			credits: 1.5
+		}
+	}
+})
